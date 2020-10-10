@@ -2,4 +2,7 @@
     <string name="app_name">Assignment</string>
     <!--    <string name="key_auth">Assignment</string>-->
     <!--Client-ID 137cda6b5008a7c-->
+
+    <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+<string name="please_wait">please wait</string>
 </resources>

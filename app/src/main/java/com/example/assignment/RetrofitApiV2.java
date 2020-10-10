@@ -8,20 +8,10 @@ import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
+import retrofit2.http.Url;
 
 public interface RetrofitApiV2 {
 
-
-    @FormUrlEncoded
-    @POST("")
-    Call<JsonElement> getCuisineType(
-            @Field("type") String type
-    );
-
-
-    @GET("url")
-    Call<String> getCountries();
-
-    @GET("1?q=vanilla")
-    Call<JsonElement> getCash();
+    @GET()
+    Call<OrderWrapper> getCashTest(@Url String s);
 }
